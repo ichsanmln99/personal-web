@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.post-card a {
+  @apply text-primary hover:text-primary-focus;
+}
+
+.tab {
+  @apply font-semibold;
+  position: relative;
+}
+
+.tab.tab-active::after {
+  @apply bg-primary;
+  position: absolute;
+  bottom: 0px;
+  content: "";
+  height: 4px;
+  width: 30%;
+  border-radius: 20px;
+}
+
+.tab:hover {
+  background-color: theme("colors.base-secondary");
+}
