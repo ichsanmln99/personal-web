@@ -17,7 +17,7 @@
           >About</NuxtLink
         >
         <NuxtLink
-          to="/works"
+          to="/projects"
           exact-active-class="tab-active"
           class="tab flex-1 hover:text-base-content tab-lg md:h-16"
           >Projects</NuxtLink
