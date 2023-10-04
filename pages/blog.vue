@@ -1,57 +1,31 @@
 <template>
-  <div class="w-full max-w-2xl mx-auto">
-    <TheHeader image="/banner-2.gif">
-      <a href="/" class="btn btn-outline btn-circle btn-sm md:btn-md">
-        <Icon name="mdi:home-outline" size="22"></Icon>
-      </a>
-      <a
-        href="mailto:michsanm1999@gmail.com"
-        class="btn btn-outline btn-circle btn-sm md:btn-md"
-      >
-        <Icon name="mdi:email-outline" size="22"></Icon>
-      </a>
-      <a
-        href="https://x.com/ichsanspace"
-        target="_blank"
-        class="btn btn-primary gap-1 btn-sm md:btn-md"
-      >
-        Follow <Icon name="mdi:twitter" size="22"></Icon>
-      </a>
-    </TheHeader>
+  <BlogNavbar></BlogNavbar>
 
-    <section>
-      <div class="px-2 py-4">
-        <div>
-          <h1 class="text-2xl font-bold">My Blog 📝</h1>
-          <h2 class="opacity-50">Personal Blog of Ichsan Maulana</h2>
+  <div
+    class="w-full max-w-5xl mx-auto grid grid-cols-6 md:gap-20 gap-14 md:mt-16 mt-10 px-4"
+  >
+    <div class="md:col-span-2 col-span-6">
+      <div class="avatar mb-4">
+        <div class="w-24 bg-black rounded-full ring-base-100 ring-4">
+          <img src="/me.jpg" />
         </div>
       </div>
-    </section>
-
-    <section>
-      <div class="tabs w-full border-b border-zinc-800">
-        <NuxtLink
-          to="/blog"
-          class="tab flex-1 hover:text-base-content tab-lg md:h-16"
-          exact-active-class="tab-active"
-          >Posts</NuxtLink
-        >
-        <NuxtLink
-          to="/blog/link"
-          exact-active-class="tab-active"
-          class="tab flex-1 hover:text-base-content tab-lg md:h-16"
-          >Links</NuxtLink
-        >
-      </div>
       <div>
-        <NuxtPage></NuxtPage>
+        <div class="mb-2">
+          <h1 class="text-xl font-bold">Ichsan Maulana</h1>
+          <h2 class="opacity-50">@ichsanspace</h2>
+        </div>
+        <p>
+          Web Developer who can write Frontend and Backend, *mostly frontend
+        </p>
       </div>
-    </section>
-    <TheFooter></TheFooter>
+    </div>
+    <div class="md:col-span-4 col-span-6 flex flex-col gap-8">
+      <NuxtPage></NuxtPage>
+    </div>
   </div>
 </template>
 
 <script setup>
-import TheFooter from "~/components/TheFooter.vue";
-import TheHeader from "~/components/TheHeader.vue";
+import BlogNavbar from "~/components/BlogNavbar.vue";
 </script>

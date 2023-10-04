@@ -29,7 +29,7 @@
         </p>
         <div
           v-if="media"
-          class="w-full max-h-[620px] rounded-xl overflow-hidden bg-primary"
+          class="w-full max-h-[620px] rounded-xl overflow-hidden bg-black"
         >
           <img
             v-if="mediaType === 'image'"

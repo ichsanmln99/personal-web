@@ -9,7 +9,7 @@
 </template>
 
 <script setup>
-import { computed } from "vue";
+import { computed, onMounted, ref } from "vue";
 defineProps({
   image: {
     type: String,
@@ -17,7 +17,11 @@ defineProps({
   },
 });
 
-const randomBanner = computed(() => `/banner-${getRandomArbitrary(1, 4)}.gif`);
+const randomBanner = ref();
+
+onMounted(() => {
+  randomBanner.value = `/banner-${getRandomArbitrary(1, 4)}.gif`;
+});
 
 function getRandomArbitrary(min, max) {
   return Math.round(Math.random() * (max - min) + min);
