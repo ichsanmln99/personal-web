@@ -1,10 +1,8 @@
 <template>
   <div class="w-full h-64 bg-black lofi-effect">
-    <img
-      :src="image || randomBanner"
-      class="w-full h-full object-cover"
-      alt=""
-    />
+    <video loop autoplay muted playsinline class="w-full h-64 object-cover">
+      <source :src="randomBanner" />
+    </video>
   </div>
 </template>
 
@@ -17,11 +15,7 @@ defineProps({
   },
 });
 
-const randomBanner = ref();
-
-onMounted(() => {
-  randomBanner.value = `/banner-${getRandomArbitrary(1, 4)}.gif`;
-});
+const randomBanner = computed(() => `/banner-${getRandomArbitrary(1, 4)}.webm`);
 
 function getRandomArbitrary(min, max) {
   return Math.round(Math.random() * (max - min) + min);
@@ -34,7 +28,7 @@ function getRandomArbitrary(min, max) {
   will-change: opacity;
   animation: opacity 3s linear infinite;
 
-  img {
+  video {
     position: absolute;
     left: 50%;
     top: 50%;

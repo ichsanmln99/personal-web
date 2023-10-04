@@ -13,7 +13,7 @@ Here's the page where I showcase my selected projects. 🚀 #Portfolio #Projects
 Decide to start my personal project, its called [baca-alquran.com](https://baca-alquran.com)! A website to read the Quran with indonesia translations and audio playback per verse. More features coming soon! #BacaAlquran #PersonalProject
 ::
 
-::post-card{date="09/24/2023" media="/pokerplan.webp"}
+::post-card{date="09/24/2023" media="/pokerplan.webm" mediaType="gif"}
 🃏 PokerPlan
 
 It all started with the struggle to find a free online poker planning app that suited my dev team,  I took the initiative to craft my own app that precisely matches our team's requirements. Give it a try [PokerPlan](https://poker.ichsanmaulana.com)

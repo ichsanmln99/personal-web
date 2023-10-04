@@ -5,10 +5,14 @@
     <div class="prose prose-xl">
       <ContentDoc v-slot="{ doc }">
         <ContentRenderer :value="doc">
-          <img
+          <NuxtImg
+            sizes="xs:90vw"
+            quality="90"
+            densities="2x"
+            format="webp"
+            class="w-full max-h-[420px] object-cover rounded-2xl bg-black"
             :src="doc.thumbnail"
-            class="w-full max-h-[420px] object-cover rounded-2xl"
-            alt=""
+            alt="Post Image"
           />
           <ContentRendererMarkdown
             :value="doc"

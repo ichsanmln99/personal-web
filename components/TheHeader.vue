@@ -4,7 +4,13 @@
       <BannerHeader :image="image"></BannerHeader>
       <div class="avatar -translate-y-1/2 translate-x-4 absolute">
         <div class="w-32 md:w-40 bg-black rounded-full ring-base-100 ring-4">
-          <img src="/me.jpg" />
+          <NuxtImg
+            src="/me.jpg"
+            sizes="128px md:160px"
+            densities="x2"
+            format="webp"
+            alt="Ichsan Maulana"
+          />
         </div>
       </div>
       <div class="flex justify-end py-3 px-2 gap-2">

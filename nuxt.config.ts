@@ -5,7 +5,7 @@ const routes = globSync("./content/posts/*.md").map((path) =>
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-  modules: ["@nuxt/content", "nuxt-icon", "dayjs-nuxt"],
+  modules: ["@nuxt/content", "nuxt-icon", "dayjs-nuxt", "@nuxt/image"],
   content: {
     highlight: {
       theme: "poimandres",
@@ -23,4 +23,5 @@ export default defineNuxtConfig({
       routes: [...routes],
     },
   },
+  image: {},
 });

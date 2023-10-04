@@ -3,7 +3,16 @@
     <div
       class="w-full mt-3 max-h-[620px] rounded-xl overflow-hidden border border-zinc-800 bg-base-secondary hover:bg-base-secondary-2 transition"
     >
-      <img class="w-full h-full bg-black" :src="thumbnail" />
+      <NuxtImg
+        sizes="xs:90vw"
+        quality="90"
+        densities="2x"
+        format="webp"
+        class="w-full h-full bg-black"
+        :src="thumbnail"
+        alt="Post Image"
+      />
+
       <div class="p-4 text-base-content">
         <h2 class="h2">{{ title }}</h2>
         <p class="opacity-50 line-clamp-2">

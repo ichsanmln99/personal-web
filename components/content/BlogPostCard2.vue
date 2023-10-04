@@ -1,10 +1,16 @@
 <template>
   <NuxtLink :to="url">
     <div>
-      <img
+      <NuxtImg
+        sizes="xs:90vw"
+        quality="90"
+        densities="2x"
+        format="webp"
+        class="w-full md:h-[360px] h-[240px] object-cover bg-black"
         :src="thumbnail"
-        class="w-full md:h-[360px] h-[240px] object-cover rounded-2xl"
+        alt="Post Image"
       />
+
       <div class="py-6">
         <h1 class="md:text-4xl text-2xl font-semibold">
           {{ title }}

@@ -6,7 +6,15 @@
     <div class="flex flex-col relative">
       <div class="avatar flex-0 z-10">
         <div class="w-12 rounded-full">
-          <img src="/me.jpg" />
+          <NuxtImg
+            src="/me.jpg"
+            width="48"
+            height="48"
+            quality="100"
+            densities="2x"
+            format="webp"
+            alt="Ichsan Maulana"
+          />
         </div>
       </div>
       <div
@@ -31,11 +39,22 @@
           v-if="media"
           class="w-full max-h-[620px] rounded-xl overflow-hidden bg-black"
         >
-          <img
-            v-if="mediaType === 'image'"
-            class="w-full h-full"
-            :src="media"
-          />
+          <template v-if="mediaType === 'image'">
+            <NuxtImg
+              sizes="xs:90vw"
+              quality="90"
+              densities="2x"
+              format="webp"
+              class="w-full h-full"
+              :src="media"
+              alt="Post Image"
+            />
+          </template>
+          <template v-else-if="mediaType === 'gif'">
+            <video loop autoplay muted playsinline class="w-full object-cover">
+              <source :src="media" />
+            </video>
+          </template>
         </div>
       </div>
     </div>

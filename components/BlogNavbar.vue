@@ -2,7 +2,7 @@
   <div class="navbar w-full max-w-5xl mx-auto px-4">
     <div class="flex-1">
       <NuxtLink to="/">
-        <img src="/IC.svg" width="32" alt="" />
+        <NuxtImg src="/IC.svg" width="32" height="32" alt="IC Logo" />
       </NuxtLink>
     </div>
     <div class="flex-0">
