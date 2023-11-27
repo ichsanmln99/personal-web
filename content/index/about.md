@@ -1,6 +1,5 @@
 ---
-title: 'Ichsan Maulana | About Me'
-description: 'About Me'
+title: 'About Me'
 ---
 
 ::post-card{date="09/24/2023" isChaining=true}
@@ -27,7 +26,7 @@ comprehensive understanding of web development.
 
 ::post-card{date="09/24/2023" isChaining=true}
 One of the highlights of my career has been leading development teams
-and championing Agile Development practices at [Boostr.id](https://boostr.id) (now known as komship.id). I take pride in
+and championing Agile Development practices at [Boostr.id](https://boostr.id) (now known as Komplace.id). I take pride in
 efficiently delivering projects aligned with our product goals 🎯.
 ::
 

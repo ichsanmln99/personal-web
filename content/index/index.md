@@ -1,6 +1,5 @@
 ---
-title: 'Ichsan Maulana | Feed'
-description: 'Feed'
+title: 'Feed'
 ---
 
 ::post-card{date="09/24/2023"}

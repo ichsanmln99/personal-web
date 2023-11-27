@@ -1,6 +1,5 @@
 ---
-title: 'Ichsan Maulana | Projects'
-description: 'Projects'
+title: 'Projects'
 ---
 
 ::post-card{date="09/24/2023"}
@@ -20,7 +19,7 @@ It all started with the struggle to find a free online poker planning app that s
 ::
 
 ::post-card{date="09/24/2023" media="/boostr.id-1.jpg" isChaining=true}
-🚀 Boostr.id (now known as Komship)
+🚀 Boostr.id (now known as Komplace.id)
 
 Boostr.id is an app that simplifies the task of managing various marketplace accounts like Shopee, Tokopedia, TikTokShop, and Lazada, offering a one-stop solution for seller convenience. Based in Indonesia 🇮🇩
 ::
