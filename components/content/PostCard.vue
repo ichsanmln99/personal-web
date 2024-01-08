@@ -43,7 +43,7 @@
             <NuxtImg
               sizes="xs:90vw"
               quality="90"
-              densities="2x"
+              densities="3x"
               format="webp"
               class="w-full h-full"
               :src="media"
