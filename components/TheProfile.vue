@@ -9,9 +9,7 @@
         <h2 class="opacity-50">@ichsanspace</h2>
       </div>
       <div class="my-3">
-        <p>
-          Web Developer who can write Frontend and Backend, *mostly frontend
-        </p>
+        <p>👨‍🚀 Knowledge Worker 👨‍💻 Frontend & Fullstack Web Developer</p>
       </div>
       <div class="flex gap-3 flex-wrap">
         <div class="flex gap-1 items-center opacity-50">
@@ -20,8 +18,11 @@
         </div>
         <div class="flex gap-1 items-center">
           <Icon class="opacity-50" name="mdi:link-variant"></Icon>
-          <NuxtLink to="/blog" class="text-primary hover:text-primary-focus"
-            >/blog</NuxtLink
+          <a
+            href="https://blog.ichsanmaulana.com"
+            class="text-primary hover:text-primary-focus"
+            target="_blank"
+            >/blog</a
           >
         </div>
         <div class="flex gap-1 items-center opacity-50">
