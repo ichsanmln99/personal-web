@@ -6,6 +6,20 @@ title: 'Projects'
 Here's the page where I showcase my selected projects. 🚀 #Portfolio #Projects
 ::
 
+::post-card{date="09/24/2023" media="/slack-redesign.png"}
+🎨 Slack Landing Page Redesign
+<br/>
+I have created landing page redesign, the design is not my own, instead it was sourced from figma community, A big shout-out 
+to the designer! Take a look the result in [here](https://slack-ichsanmaulana.vercel.app).
+<br/>
+<br/>
+UI Design : [Source](https://www.figma.com/community/file/1193920025664413974)
+
+
+
+::
+
+
 ::post-card{date="09/24/2023" media="/baca-alquran.jpg"}
 📖 baca-alquran.com
 <br/>
