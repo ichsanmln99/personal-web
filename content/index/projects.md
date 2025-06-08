@@ -23,7 +23,7 @@ UI Design : [Source](https://www.figma.com/community/file/1193920025664413974)
 ::post-card{date="09/24/2023" media="/baca-alquran.jpg"}
 📖 baca-alquran.com
 <br/>
-Decide to start my personal project, its called [baca-alquran.com](https://baca-alquran.com)! A website to read the Quran with indonesia translations and audio playback per verse. More features coming soon! #BacaAlquran #PersonalProject
+Decide to start my personal project, its called [baca-alquran.com](https://quran.ichsanmaulana.com)! A website to read the Quran with indonesia translations and audio playback per verse. More features coming soon! #BacaAlquran #PersonalProject
 ::
 
 ::post-card{date="09/24/2023" media="/pokerplan.webm" mediaType="gif"}
